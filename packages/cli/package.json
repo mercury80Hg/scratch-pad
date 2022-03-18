@@ -20,8 +20,8 @@
 		"@scratchpadjs/local-client": "^1.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^17.0.21",
 		"@scratchpadjs/local-api": "^1.0.0",
+		"@types/node": "^17.0.21",
 		"commander": "^9.0.0",
 		"esbuild": "0.8.26",
 		"typescript": "^4.6.2"
