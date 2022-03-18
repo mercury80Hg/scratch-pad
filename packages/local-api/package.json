@@ -1,6 +1,6 @@
 {
 	"name": "@scratchpadjs/local-api",
-	"version": "1.0.0",
+	"version": "9.0.0",
 	"description": "",
 	"files": [
 		"dist"
@@ -23,7 +23,7 @@
 		"typescript": "^4.6.2"
 	},
 	"dependencies": {
-		"@scratchpadjs/local-client": "^1.0.0",
+		"@scratchpadjs/local-client": "^9.0.0",
 		"cors": "^2.8.5",
 		"express": "^4.17.3",
 		"http-proxy-middleware": "^2.0.3"
