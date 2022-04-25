@@ -1,7 +1,7 @@
 import express from "express"
 import { createProxyMiddleware } from "http-proxy-middleware"
 import path from "path"
-import { createCellsRouter } from "@scratchpadjs/local-api/src/routes/cells"
+import { createCellsRouter } from "./routes/cells"
 
 export const serve = (
 	port: number,

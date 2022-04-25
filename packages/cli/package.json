@@ -20,9 +20,9 @@
 		"@scratchpadjs/local-client": "^10.0.1"
 	},
 	"devDependencies": {
+		"commander": "^9.0.0",
 		"@scratchpadjs/local-api": "^10.0.1",
 		"@types/node": "^17.0.21",
-		"commander": "^9.0.0",
 		"esbuild": "0.8.26",
 		"typescript": "^4.6.2"
 	},
