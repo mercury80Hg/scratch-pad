@@ -22,8 +22,9 @@ You can import react as normal as well as most all other npm packages.
 
 A built in show() function allows you to execute code to the console.
  i.e. 
-  show(<h1>hello world <h1>)    will  display >    Hello World
-  
+
+  `show(<strong>hello world <strong>)`    will  display >    **Hello World**
+
 Beautify code format cleanup is available by clicking the "Format" button that appears while hovering in the code box.
 
 FUTURE IMPROVEMENTS:
