@@ -39,4 +39,4 @@ Beautify code format cleanup is available by clicking the "Format" button that a
 
 - Additional cells can be created by hovering on the divider between each cell.
 
-All of your changes get saved to the file you opened Scratchpadjs with. So if you ran npx jbook serve test.js, all of the text and code you write will be saved to the test.js file.
+All of your changes get saved to the file you opened Scratchpadjs with. So if you ran **npx scratchpadjs serve test.js**, all of the text and code you write will be saved to the test.js file.
