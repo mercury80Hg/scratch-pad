@@ -36,7 +36,7 @@ i.e.
 
 - All of the code in any seperate code cells operate as one. If you declare a variable in one code cell you have access to it in another all the way down.
 
-- You can show any React component, string,number, or anything else by calling the `show` function. This is a function built into this environment. Call `show()` multiple times to show multiple values.
+- You can show any React component, string, number, or anything else by calling the `show` function. This is a function built into this environment. Call `show()` multiple times to show multiple values.
 
 - Re-order or delete cells using the arrow buttons on the top right.
 
