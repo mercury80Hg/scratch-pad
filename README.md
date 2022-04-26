@@ -1,30 +1,28 @@
 # scratch-pad
+
 Browser based javascript coding environment
 
-
 To Publish Changes: CLI - lerna publish
->> lerna was used in this app.
 
-CLI Installation: - npx scratchpadjs serve
+> > lerna was used in this app.
 
-should run the app in http://localhost:4005/ 
+CLI Installation: npx scratchpadjs serve
 
+should run the app in http://localhost:4005/
 
-Use
+How to Use
 
-+Code button: This will add a js code editing environment cell to the screen.  You can add as many as you want and organize them with the up/down arrows on the top right of the cell.  X will remove the cell.
++Code button: This will add a js code editing environment cell to the screen. You can add as many as you want and organize them with the up/down arrows on the top right of the cell. X will remove the cell.
 
-+Text button: You can also add a text cell markdown for notes.  Clicking on the cell enters edit mode, clicking offscreen will put in display mode.
++Text button: You can also add a markdown text cell for notes. Clicking on the cell enters edit mode, clicking outside of the cell box will enter the display mode.
 
-The +Code and +Text buttons will disappear after initializing a cell.  They will reappear if you hover above or below any of the cells.
+The +Code and +Text buttons will disappear after initializing the first cell. They will reappear if you hover above or below any of the cells.
 
 You can import react as normal as well as most all other npm packages.
 
 A built in show() function allows you to execute code to the console.
- i.e. 
+i.e.
 
-  `show(<strong>hello world <strong>)`    will  display >    **Hello World**
+`show(<strong>hello world <strong>)` will display > **Hello World**
 
 Beautify code format cleanup is available by clicking the "Format" button that appears while hovering in the code box.
-
-FUTURE IMPROVEMENTS:
