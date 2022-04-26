@@ -6,7 +6,7 @@ To Publish Changes: CLI - lerna publish
 
 > > lerna was used in this app.
 
-CLI Installation: npx scratchpadjs serve
+CLI Installation: npx scratchpadjs serve yourfilename.js
 
 should run the app in http://localhost:4005/
 
@@ -26,3 +26,17 @@ i.e.
 `show(<strong>hello world <strong>)` will display > **Hello World**
 
 Beautify code format cleanup is available by clicking the "Format" button that appears while hovering in the code box.
+
+## ScratchpadJS
+
+- You can click on any text cell to edit it.
+
+- All of the code in any seperate code cells operate as one. If you declare a variable in one code cell you have access to it in another all the way down.
+
+- You can show any React component, string,number, or anything else by calling the **show** function. This is a function built into this environment. Call show() multiple times to show multiple values.
+
+- Re-order or delete cells using the arrow buttons on the top right.
+
+- Additional cells can be created by hovering on the divider between each cell.
+
+All of your changes get saved to the file you opened Scratchpadjs with. So if you ran npx jbook serve test.js, all of the text and code you write will be saved to the test.js file.
