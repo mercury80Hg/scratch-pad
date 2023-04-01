@@ -1,19 +1,23 @@
-# scratch-pad
+# Scratchpadjs
+Browser rendered and based javascript coding environment
 
-Browser based javascript coding environment
 
-#### Notes:
+## Getting Started
+From the command line install the npm package using: `npm install scratchpadjs -g`
+
+Initialize with: `npx scratchpadjs serve yourfilename.js`
+
+Find the app running in : http://localhost:4005/
+
+
+#### Dev Notes:
 To Publish Changes: CLI - `lerna publish`
 
 > > lerna was used in this app.
 
-***CLI Installation***: `npm install scratchpadjs -g`
 
-***Initialize***: `npx scratchpadjs serve yourfilename.js`
 
-The app should then run in http://localhost:4005/
-
-### How to Use
+### How to Use ScratchpadJs
 
 **+Code button**: This will add a js code editing environment cell to the screen. You can add as many as you want and organize them with the up/down arrows on the top right of the cell. X will remove the cell.
 
