@@ -1,4 +1,4 @@
-# Scratchpadjs
+# ScratchpadjJS
 Browser rendered and based javascript coding environment
 
 
@@ -17,7 +17,7 @@ To Publish Changes: CLI - `lerna publish`
 
 
 
-### How to Use ScratchpadJs
+### How to Use ScratchpadJS
 
 **+Code button**: This will add a js code editing environment cell to the screen. You can add as many as you want and organize them with the up/down arrows on the top right of the cell. X will remove the cell.
 
